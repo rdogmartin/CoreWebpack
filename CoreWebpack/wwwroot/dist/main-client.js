@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ead725719c898dc85fed"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "2371decb3c27f65e3a12"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -912,7 +912,7 @@ if (true) {
     module['hot'].accept();
 }
 var message = function () { return "Hello RDOG. Wassup?"; };
-debugger;
+//debugger;
 document.getElementById("subtitle").innerHTML = message.apply(this);
 
 
